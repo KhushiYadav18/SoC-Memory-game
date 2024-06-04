@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of web development</title>
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th?id=OIP.PIB_vf38gI3FhdDiCt256gHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2">
+    <link rel="stylesheet", href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <h1 id="h1">BASICS OF WEB DEVELOPMENT</h1>
+    </div>
+    <div class="navbar">
+        <a class="active" href="#introduction">Introduction</a>
+        <a href="#html"></a>
+        <a href="#css">CSS</a>
+        <a href="#javascript">JavaScript</a>
+    </div>
+    <div id="introduction">
+        <h1>Introduction</h1>
+        <ol>
+            <li>
+            Introduction
+                 <ul>
+                    <li>Basic Contents</li>
+                    <li>History of HTML</li>
+                 </ul>
+            </li>
+            <li>
+            Structure
+                 <ul>
+                    <li>Elements</li>
+                    <li>Tags</li>
+                 </ul>
+            </li>
+            <li>
+            Attributes
+                 <ul>
+                    <li>Global Attributes</li>
+                    <li>Special Attributes</li>
+                 </ul>
+            </li>
+        </ol>
+        <p>Web development is the work involved in developing a website for the Internetor an intranet.It can range from developing a 
+            simple static page of plain text to complex web applications, electronic businesses, and social network services.
+        </p>
+        <p id="p1">
+            "Web development is broad term for the work invoved in developing a website for the Internet or an intranet."
+        </p>
+        <p><b>Key Elements:</b> <abbr title="Hyper text mark-up language">HTML</abbr>, <abbr title="cascading style sheets">CSS</abbr>, JavaScript</p>
+        <div>
+        <a href="https://www.w3schools.com/" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.nSiKjFr9C9hIilEsPCEsEgHaHa?w=176&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="click here" id="img1">
+        </a>
+        </div>
+        <p>To learn from w3schools click above link.</p>
+        <div>
+            <p>Check out <a href="https://developer.mozilla.org/en-US/" target="_parent">MDN Web Docs</a> for detailed documentation</p>
+            <p>Learn more at <a href="https://www.google.co.in/" target="_self"> GOOGLE</a></p>
+            <p>Explore <a href="https://css-tricks.com/" target="_top">Example Site</a></p>
+            <hr>
+        </div>
+        </div>
+    <div id="html">
+        <h1>HTML</h1>
+        <p><abbr title="Hyper text mark-up language">HTML</abbr> is the standard language for creating web pages.HTML describes the 
+        structure of a web page using markup.HTML elements are building blocks of HTML pages.</p>
+        <div class="div2">
+            <pre>
+ &lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;This is a heading &lt;/h1&gt;
+    &lt;p&gt;This is a paragraph &lt;/p&gt;
+  &lt;/body&gt;
+ &lt;/html&gt;
+        </pre>
+    </div>
+
+<p>The <d style="background-color: yellow;">&lt;mark&gt;</d> tag highlights text,while <del>&lt;del&gt;</del> and <u>&lt;ins&gt;</u> tags show deleted 
+and inserted text, respectively</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eius id nobis rerum enim facere doloribus, minus minima obcaecati repudiandae?</p>
+    </div>
+    <div id="css">
+
+        <h1>CSS</h1>
+        <p>CSS stands for <b>Cascading Style Sheets</b>. It describes how HTML are to be displayed on screen, paper, or in other media
+        .CSS saves a lot of work.It can control the layout of multiple web pages all at once.</p>
+         <a href="https://css-tricks.com/">
+            <img src="https://th.bing.com/th/id/OIP.Dx2gQGTa9UViNgVYwqzr8AHaHa?w=180&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="click here" class="img1">
+            </a>
+         <p>For any queries, email us at <a href="mailto:info@webdev.com">info@webdev.com</a>  </p> 
+          <p>Understanding image maps: </p>
+            <img src="https://th.bing.com/th/id/OIP.m33O_7-qn4ijyu5iDSQgFQHaHa?w=216&h=216&c=7&r=0&o=5&dpr=2&pid=1.7" alt="click here" class="img1">
+            <p>Responsive image with &lt;picture&gt; element: <br> <br>Change width to observe changes</p>
+            <picture>
+            <img src="https://th.bing.com/th?id=OIP.YCysWiDN5r1qyfByFbx2kwHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2" alt="click" class="img1">
+            </picture>
+            <p id="p2"><b>This is a Random Text</b><br> <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, ipsum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ratione.</p>
+            
+        <p>Some beautiful tables can be made 😁</p>
+        <table>
+            <thead class="table-header">
+            <tr>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            </tr>
+            </thead>
+            
+            <tbody class="table-row">
+            <tr class="item-row">
+            <td class="category-cell">Electronics</td><td class="name-cell">Laptop</td><td>High performance laptop for gaming and work</td><td>1</td><td>$1200</td></tr>
+            
+            <tr class="item-row">
+            <td class="category-cell">Furniture</td><td class="name-cell">Desk</td><td>Ergonomic office desk</td><td>1</td><td>$250</td></tr>
+            
+            <tr class="item-row">
+            <td class="category-cell">Stationery</td><td class="name-cell">Notebook</td><td>A4 size, 100 pages</td><td>5</td><td>$15</td></tr>
+            </tbody>
+            </table>
+            <hr>
+
+        </div>
+    <div id="javascript">
+        <h1>JavaScript</h1>
+        <p>JavaScript is a programming language commonly used in web development.It was originally developed by Netscape as a means 
+            to add dynamic and interactive elements to websites. JavaScriptis versatile and begginer-friendly.
+        </p>
+        <pre class="div2">
+document.addEventListener('DOMContentLoaded',(event)=>{ 
+    document.getElementById('myButton').addEventListener('click',function(){ 
+        alert('Hello,World!');
+    });
+});
+       </pre>
+
+       <script>
+        function showAlert() {
+            alert("Hello, World!");
+        }
+        function Happy() {
+            document.getElementById('emoji').src="https://th.bing.com/th?id=OIP.G5-Mu-6_PlEW-H6cplMJvQAAAA&w=247&h=252&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2";
+        }
+
+        function Sad() {
+            document.getElementById('emoji').src="https://th.bing.com/th?id=OIP.FNx8zNSGAWV306j1BsocDAAAAA&w=247&h=252&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2";
+      
+        }
+        function openWebsite() {
+            window.location.href = 'https://www.javascript.com/';
+        }
+    </script>
+    <button onclick="showAlert()">Click Me</button><br> <br>
+    <p>Visit our <button onclick="openWebsite()">JavaScript website</button> for more information. </p>
+    <p>Common examples used in JavaScript includes <sub>subscript</sub> and <sup>superscript </sup>text.</p>
+    <h>This is some changeable text.</h><br>
+    <h2>JavaScript  Example</h2>
+    <button onclick="Happy()">Happy Button</button>
+    <button onclick="Sad()">Sad Button</button>
+    <img id="emoji" src="https://th.bing.com/th?id=OIP.G5-Mu-6_PlEW-H6cplMJvQAAAA&w=247&h=252&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2" alt="Emoji">
+    <hr>
+
+    </div>
+    <div class="footer">
+        <pre>
+            Contact Us:
+            Web Development Inc.
+            123 Web Street,Web City,WB 12345
+            <a href="mailto:info@webdev.com">info@webdev.com</a> 
+
+            2024 Basics of Web Development
+        </pre>
+    </div>
+    
+</body>
+</html>

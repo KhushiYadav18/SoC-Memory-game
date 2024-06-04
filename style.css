@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(238, 238, 237);
+}
+.div1{
+    background-color: rgb(28, 220, 178);
+}
+#h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar{
+    background-color: black;
+    height:3rem;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    text-size-adjust:inherit;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#p1{
+    background-color: rgb(246, 240, 240);
+    margin-left: 2rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    
+    padding-top: 1rem;
+}
+#html , #css , #javascript,#introduction{
+    background-color: white;
+    border: 2px solid #fff; padding: 10px;
+    border-radius: 2%;
+    margin-top: 1rem;
+}
+.img1{
+    /* float:left; */
+    height:300px;
+    width :300px;
+}
+
+
+#div2{
+    background-color: rgb(127, 123, 123);
+    border: 2px solid #fff; 
+    border-radius: 2%;
+    text-align:left;
+    
+}
+#p2{
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/R.7bccaa152e267a4d4e87a6869632401c?rik=VvmWfb3tYplANw&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f5500000%2fRandom-wallpapers-random-5549370-1280-800.jpg&ehk=je7UQZymJ2yhg5zW5xcOBvvqs%2bzVKG%2fOvrk726v7YNE%3d&risl=&pid=ImgRaw&r=0); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.table-header th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-cell {
+    background-color:#4CAF50 ; 
+}
+
+.name-cell {
+    background-color: #FFB6C1; 
+}
+
+.a{
+    text-align: center;
+}
+#emoji{
+    width:100px;
+    height: 100px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color:#fff;
+}
+  a:visited {
+    color: purple; 
+  }
+  
+  a:hover {
+    color: orange; 
+  }
+  
+  a:active {
+    color: red; 
+  }
