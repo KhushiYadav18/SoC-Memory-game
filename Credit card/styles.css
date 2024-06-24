@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    margin: 0;
+    background-image: url('https://th.bing.com/th?q=Black+Abstract+Background&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247');
+}
+
+.card-container {
+    perspective: 1000px;
+}
+
+.card {
+    width: 310px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card .front, .card .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card .front {
+    background: linear-gradient(135deg, #654ea3, #eaafc8);
+    color: white;
+    opacity: 0.8;
+}
+
+.card .back {
+    background: linear-gradient(135deg, #654ea3, #eaafc8);
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.card-logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px; 
+}
+
+.card-number {
+    margin: 20px 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.card-name {
+    font-size: 14px;
+}
+
+.card-expiry {
+    font-size: 14px;
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+}
+
+.strip {
+    background: black;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.signature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sig-text {
+    font-size: 12px;
+}
+
+.sig-strip {
+    width: 150px;
+    border-bottom: 1px solid white;
+}
+
+.cvv {
+    align-self: flex-end;
+    font-size: 12px;
+}
+
+.disclaimer {
+    font-size: 10px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
